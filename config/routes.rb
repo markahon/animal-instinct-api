@@ -7,8 +7,6 @@ Rails.application.routes.draw do
         resources :choices
       end
       resources :answers
-
-
     end
   end
 
