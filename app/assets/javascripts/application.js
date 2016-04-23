@@ -21,7 +21,6 @@
 //= require angular-strap/angular-strap.tpl.js
 //= require angular-moment
 //= require angular-i18n/angular-locale_fi
-//= require angular-toArrayFilter
 //= require angular-loading-bar
 
 
