@@ -217,7 +217,7 @@ GEM
     moneta (0.8.0)
     multi_json (1.11.2)
     multi_xml (0.5.5)
-    mysql2 (0.4.4)
+    mysql2 (0.3.20)
     nenv (0.3.0)
     net-scp (1.2.1)
       net-ssh (>= 2.6.5)
@@ -435,7 +435,7 @@ DEPENDENCIES
   letter_opener
   lograge
   magic_encoding
-  mysql2
+  mysql2 (~> 0.3.13)
   ngannotate-rails
   nokogiri
   paranoia (~> 2.0)

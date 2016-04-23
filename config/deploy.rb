@@ -1,6 +1,6 @@
 # -*- encoding : utf-8 -*-
 # config valid only for current version of Capistrano
-lock '3.4.0'
+lock '3.4.1'
 
 set :application, 'animal-instinct-api'
 set :repo_url, 'git@github.com:markahon/animal-instinct-api.git'
@@ -9,7 +9,7 @@ set :deploy_to, "/var/apps/#{fetch(:application)}"
 set :scm, :git
 
 set :format, :pretty
-set :log_level, :info
+set :log_level, :debug
 set :pty, false
 set :port, 22
 
@@ -20,9 +20,9 @@ set :keep_releases, 10
 
 set :use_sudo, false # Don't use sudo
 
-set :rollbar_token, '9d7f25d670a3442dad660c46c2faadf1'
-set :rollbar_env, Proc.new { fetch :stage }
-set :rollbar_role, Proc.new { :app }
+#set :rollbar_token, '9d7f25d670a3442dad660c46c2faadf1'
+#set :rollbar_env, Proc.new { fetch :stage }
+#set :rollbar_role, Proc.new { :app }
 
 # https://github.com/seuros/capistrano-sidekiq
 set :sidekiq_config, 'config/sidekiq.yml'
