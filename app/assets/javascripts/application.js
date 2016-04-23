@@ -15,14 +15,12 @@
 //= require lodash
 //= require moment
 //= require moment/locale/fi
-//= require chosen
 //= require angular
 //= require angular-resource
 //= require angular-strap/angular-strap.js
 //= require angular-strap/angular-strap.tpl.js
 //= require angular-moment
 //= require angular-i18n/angular-locale_fi
-//= require angular-chosen-yousource
 //= require angular-toArrayFilter
 //= require angular-loading-bar
 
