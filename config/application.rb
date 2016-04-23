@@ -21,7 +21,7 @@ module Varastotykki
     # There are two ways to dump the schema. This is set in config/application.rb by the
     # config.active_record.schema_format setting, which may be either :sql or :ruby.If :ruby is selected then the
     # schema is stored in db/schema.rb.
-    config.active_record.schema_format = :sql
+    config.active_record.schema_format = :ruby
 
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration should go into files in config/initializers
