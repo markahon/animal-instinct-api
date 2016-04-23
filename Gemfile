@@ -59,7 +59,6 @@ gem 'figaro'
 gem 'execjs'
 gem 'therubyracer', :platforms => :ruby
 gem 'rack-cors', :require => 'rack/cors'
-gem 'rollbar'
 gem 'whenever', :require => false
 gem 'paranoia', '~> 2.0'
 gem 'axlsx'

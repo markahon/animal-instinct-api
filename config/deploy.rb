@@ -20,10 +20,6 @@ set :keep_releases, 10
 
 set :use_sudo, false # Don't use sudo
 
-#set :rollbar_token, '9d7f25d670a3442dad660c46c2faadf1'
-#set :rollbar_env, Proc.new { fetch :stage }
-#set :rollbar_role, Proc.new { :app }
-
 # https://github.com/seuros/capistrano-sidekiq
 set :sidekiq_config, 'config/sidekiq.yml'
 

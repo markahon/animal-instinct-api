@@ -305,8 +305,6 @@ GEM
       moneta
       railties (>= 3.0, < 5.0)
       will_paginate (~> 3.0)
-    rollbar (2.10.0)
-      multi_json
     rspec (3.4.0)
       rspec-core (~> 3.4.0)
       rspec-expectations (~> 3.4.0)
@@ -452,7 +450,6 @@ DEPENDENCIES
   rails-assets-angular-strap
   rails-assets-lodash
   rocket_pants
-  rollbar
   rspec-rails (~> 3.0)
   ruby-prof
   sass-rails (~> 5.0)
