@@ -40,6 +40,9 @@ GEM
       thread_safe (~> 0.3, >= 0.3.4)
       tzinfo (~> 1.1)
     addressable (2.4.0)
+    after_commit_action (1.0.1)
+      activerecord (>= 3.0.0)
+      activesupport (>= 3.0.0)
     annotate (2.7.0)
       activerecord (>= 3.2, < 6.0)
       rake (~> 10.4)
@@ -92,6 +95,10 @@ GEM
     commonjs (0.2.7)
     concurrent-ruby (1.0.1)
     connection_pool (2.2.0)
+    counter_culture (0.2.0)
+      activerecord (>= 3.0.0)
+      activesupport (>= 3.0.0)
+      after_commit_action (~> 1.0.0)
     css_parser (1.4.1)
       addressable
     daemons (1.2.3)
@@ -408,6 +415,7 @@ DEPENDENCIES
   capistrano-rvm
   capistrano-sidekiq
   coffee-rails (~> 4.1.0)
+  counter_culture
   database_cleaner
   delocalize
   devise
